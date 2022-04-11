@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?attr/textAppearanceHeadline4"
         android:textStyle="bold"
+        android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:text="Reply message" />
@@ -41,6 +42,7 @@
         android:autofillHints=""
         android:hint="@string/hint_message"
         android:inputType="text"
+        android:minHeight="48dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btn_send"
         app:layout_constraintStart_toStartOf="parent" />
